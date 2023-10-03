@@ -18,7 +18,7 @@ public class Principal {
 
        estudiante.nota (sig1, sig2, sig3);
 
-        System.out.println("Nombre del primer estudiante: " + name);
+        System.out.println("Nombre del estudiante: " + name);
         System.out.println("Fecha de nacimiento del estudiante: " +bornDate);
         System.out.println("Promedio de notas del estudiante: " +estudiante );
 
