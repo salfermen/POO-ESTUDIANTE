@@ -52,7 +52,7 @@ public Estudiante(String name,Date bornDate,double sig1,double sig2,double sig3)
  * Complejidad temporal: O(1) Tiempo constante
  */
 public String notaB(double notas) {
-    if (notas < this.sig1 && notas < this.sig2 && notas < this.sig3) {
+    if (notaS < this.sig1 && notaS < this.sig2 && notaS < this.sig3) {
         return "SU PROMEDIO DE NOTAS ES BAJO AL ESTABLECIDO";
     } else {
         this.sig1 -= 3;
